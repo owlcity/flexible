@@ -2,11 +2,16 @@
 * @Author: owlcity
 * @Date:   2020-11-03 12:47:49
 * @Last Modified by:   zk
-* @Last Modified time: 2020-11-04 17:05:55
+* @Last Modified time: 2020-11-04 17:20:43
 */
 a {
     color: #237bcf;
     text-decoration: none;
+}
+.ellipsis {
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    overflow: hidden;
 }
 .w-100 {
     width: 100%;
@@ -55,9 +60,10 @@ a {
     margin-right: 0.5rem;
 }
 .ml-5 {
-    margin-right: 0.5rem;
+    margin-left: 0.4rem;
 }
 .item-info {
+    max-width: 4rem;
     flex:1;
     display: flex;
     flex-direction: column;
@@ -301,7 +307,7 @@ a {
         normal;
     border-radius: 0.46rem;
     text-align: center;
-    font-size: 17px;
+    font-size: 0.63rem;
     color: #fff;
 }
 .m-name {
